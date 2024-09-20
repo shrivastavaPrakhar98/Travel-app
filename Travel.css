@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer {
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    height: 12vh;
+    display: flex;
+}
+
+.leftNav {
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.rightNav {
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.centerNav {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    font-size: 30px;
+    padding-left: 40px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.centerNav ul {
+
+    width: 70%;
+    height: 14vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.centerNav ul li {
+    list-style: none;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: gray;
+}
+
+.hamburger {
+    padding-left: 150px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.bannerContainer {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    width: 95%;
+    height: 85vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.21), rgba(0, 0, 0, 0.226)), url('https://i.redd.it/5sfe8bghnwv61.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+}
+
+.bannerContent {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerHeading {
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.bannerPara {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #ffffff;
+    width: 70%;
+    text-align: center;
+}
+
+.btn {
+    background-color: #ffff;
+    padding: 15px 40px;
+    margin-top: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn p {
+    font-weight: 600;
+}
+
+.scrollBanner {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+}
+
+.arrowBox {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.larrow,
+.rarrow {
+    color: #ffff;
+    padding: 10px;
+    font-size: 35px;
+
+}
+
+.scrollBtn {
+    width: 80%;
+}
+
+.offers {
+    width: 100%;
+    height: 90vh;
+}
+
+.offersHeadingBox {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offerHeading {
+    color: black;
+    font-size: 65px;
+    font-family: "Overpass", sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+.offersPara {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    width: 55%;
+    color: gray;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.offersCards {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.offerCard {
+    border: 1px solid rgba(128, 128, 128, 0.237);
+    width: 15%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 50px;
+    border-radius: 20px;
+}
+
+.offerLogo {
+    background-color: rgba(188, 232, 250, 0.486);
+    width: 80px;
+    height: 80px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disLogo {
+    font-size: 30px;
+}
+
+.offerCard h3 {
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 40px;
+}
+
+.offerCard p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    color: gray;
+}
+
+.favouritePlaces {
+    width: 100%;
+    height: 95vh;
+}
+
+.favouriteHeading {
+    width: 100%;
+    height: 20vh;
+    padding: 30px 45px;
+    box-sizing: border-box;
+}
+
+.favouriteHeading p {
+    color: black;
+    font-weight: 500;
+    font-size: 60px;
+    font-family: "Poppins", sans-serif;
+}
+
+.favouriteCards {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cardFav {
+    border: 1px solid rgb(201, 196, 196);
+    width: 20%;
+    height: 60vh;
+    border-radius: 20px;
+}
+
+
+.picPlace1 {
+    background-image: url('https://img.freepik.com/premium-photo/merlion-official-mascot-singapore_1170530-6778.jpg?ga=GA1.1.1327201540.1726663406&semt=ais_hybrid');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    width: 100%;
+    height: 45vh;
+}
+
+.picPlace2 {
+    background-image: url('https://assets.vogue.in/photos/6239a88deb60bae3c5bc6821/2:3/w_2560%2Cc_limit/Dubai.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    width: 100%;
+    height: 45vh;
+}
+
+.picPlace3 {
+    background-image: url('https://img.freepik.com/premium-photo/photorealistic-image-statue-liberty_1008415-98685.jpg?ga=GA1.1.1327201540.1726663406&semt=ais_hybrid');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    width: 100%;
+    height: 45vh;
+}
+
+.picPlace4 {
+    background-image: url('https://img.freepik.com/premium-photo/toronto-city-skyline-autumn-ontario-canada-beautiful-fall-colors_1308175-239392.jpg?ga=GA1.1.1327201540.1726663406&semt=ais_hybrid');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    width: 100%;
+    height: 45vh;
+}
+
+
+
+
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    background-color: rgba(26, 26, 26, 0.564);
+    width: 80px;
+    height: 40px;
+    border-radius: 50px;
+    float: right;
+    margin: 10px;
+}
+
+.cardContent {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+}
+
+.leftFav {
+    width: 70%;
+}
+
+.rightFav {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conInfo{
+    display: flex;
+    height: 5vh;
+    align-items: center;
+   margin-top: 20px;
+   margin-left: 15px;
+}
+
+.conInfo p{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.priceInfo{
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.banner2{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerBox{
+    width: 90%;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.21), rgba(0, 0, 0, 0.226)), url('https://img.freepik.com/free-photo/hawaii-beach-landscape-with-ocean-view_23-2151794943.jpg?ga=GA1.1.1327201540.1726663406&semt=ais_hybrid');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+}
+
+.banner2Content{
+    width: 40%;
+    height: 50vh;
+    margin: 50px 700px;
+    box-sizing: border-box;
+}
+
+.banner2Content h3{
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 150px;
+    margin-left: 30px;
+}
+
+.banner2Content p{
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    width: 70%;
+    margin: 10px 30px;
+}
+
+.footerBanner{
+    width: 100%;
+    height: 30vh;
+    padding: 30px;
+}
+
+.credit{
+    width: 20%;
+    padding-left: 40px;
+    padding-top: 20px;
+}
